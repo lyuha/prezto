@@ -22,3 +22,8 @@ alias lla="ls -alF"
 # editor alias
 alias v="vim"
 alias e="emacs"
+
+# virtualenv
+export WORKON_HOME=$HOME/dev/.env/virtualenvs
+export PROJECT_HOME=$HOME/dev
+source /usr/local/bin/virtualenvwrapper.sh
