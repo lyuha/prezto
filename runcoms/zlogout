@@ -5,7 +5,7 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
-rm $HOME/.zhistory
+rm -f $HOME/.zhistory
 
 # Print the message.
 cat <<-EOF

@@ -77,7 +77,7 @@ function prompt_lyuha_setup {
     'rprompt' '%A%B%S%a%d%m%r%U%u'
 
   # %v - virtualenv name.
-  zstyle ':prezto:module:python:info:virtualenv' format ' (%v%)'
+  zstyle ':prezto:module:python:info:virtualenv' format ' (%F{blue}%v%f%)'
 
   # Define prompts.
   PROMPT='%F{cyan}${_prompt_lyuha_pwd}%f${git_info:+${(e)git_info[prompt]}}$python_info[virtualenv]%(!. %B%F{red}#%f%b.)${editor_info[keymap]} '
