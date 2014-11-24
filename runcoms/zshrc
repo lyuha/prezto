@@ -54,6 +54,8 @@ export GOPATH=$HOME/dev/go
 export PATH="$GOPATH/bin:$PATH"
 export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 
+# Google Cloud Platform
+
 # The next line updates PATH for the Google Cloud SDK.
 source '/Users/Lyuha/dev/.env/google-cloud-sdk/path.zsh.inc'
 
