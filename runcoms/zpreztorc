@@ -25,12 +25,7 @@ zstyle ':prezto:*:*' color 'yes'
 # The order matters.
 zstyle ':prezto:load' pmodule \
   'environment' \
-  'terminal' \
   'editor' \
-  'history' \
-  'directory' \
-  'spectrum' \
-  'utility' \
   'completion' \
   'prompt' \
   'git' \
@@ -38,7 +33,26 @@ zstyle ':prezto:load' pmodule \
   'node' \
   'haskell' \
   'ssh' \
-  'syntax-highlighting'
+  'syntax-highlighting' \
+  'tmux'
+
+#zstyle ':prezto:load' pmodule \
+  #'environment' \
+  #'terminal' \
+  #'editor' \
+  #'history' \
+  #'directory' \
+  #'spectrum' \
+  #'utility' \
+  #'completion' \
+  #'prompt' \
+  #'git' \
+  #'python' \
+  #'node' \
+  #'haskell' \
+  #'ssh' \
+  #'syntax-highlighting' \
+  #'tmux'
 
 #
 # Editor
