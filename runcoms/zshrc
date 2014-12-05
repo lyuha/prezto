@@ -14,10 +14,10 @@ fi
 
 # alias
 # ls alias
-alias l="ls -F"
-alias la="ls -aF"
-alias ll="ls -lF"
-alias lla="ls -alF"
+alias l="ls -FG"
+alias la="ls -aFG"
+alias ll="ls -lFG"
+alias lla="ls -alFG"
 
 # editor alias
 alias v="vim"
