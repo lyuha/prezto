@@ -54,10 +54,5 @@ export GOPATH=$HOME/dev/go
 export PATH="$GOPATH/bin:$PATH"
 export PATH="/usr/local/opt/go/libexec/bin:$PATH"
 
-# Google Cloud Platform
-
-# The next line updates PATH for the Google Cloud SDK.
-source '/Users/Lyuha/dev/env/google-cloud-sdk/path.zsh.inc'
-
-# The next line enables bash completion for gcloud.
-source '/Users/Lyuha/dev/env/google-cloud-sdk/completion.zsh.inc'
+# add script folder to PATH
+export PATH="$HOME/.scripts:$PATH"
